@@ -1,0 +1,59 @@
+body{
+	background-color:#bae8ff;
+	background-image: linear-gradient(#002f47, #003f60,#5491bd,
+		#ffe2d3,#fffbea);
+	text-align: center;
+}
+
+.first{
+	font-family: "bickham-script-pro-3", sans-serif;
+	font-size: 400px;
+	font-weight:400;
+	color: #0a415e;
+	line-height:65%;
+}
+
+.blueblue{
+	font-family: "orpheus-pro", serif;
+	font-weight: 400px;
+	font-size:20px;
+	color: #28668c;
+}
+
+.second{
+	font-family: "canto", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 400px;
+	line-height: 10px;
+	color: #4684b1;
+}
+
+.bluepink{
+	font-family: "orpheus-pro", serif;
+	font-weight: 400px;
+	font-size:30px;
+	color:#b0daf0;
+	padding-top: 400px;
+}
+
+.third{
+	font-family: "tenso", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size:400px;
+	color:white;
+}
+
+.pinkyellow{
+	font-family: serif;
+	font-weight: 400px;
+	font-size:50px;
+	color:#fcb3ae;
+	padding-top: 400px;
+}
+
+a{
+	color:#fcb3ae;
+	text-decoration-line:none;
+}
