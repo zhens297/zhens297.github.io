@@ -3,38 +3,44 @@ body{
 	justify-content: center;
 }
 
-h2{
+h3{
 	font-family: sans-serif;
+	font-size: 440px;
 	text-align: center;
-	font-size: 40px;
-}
-p{
-	font-family: sans-serif;
-	font-weight: 100;
-	text-align: center;
+	margin-top: 85px;
+	margin-bottom: 80px;
 }
 
-
-.box{
-	width:1000px;
-	height:690px;
-	display: flex;
-	align-items: center;
-	align-content: center;
-	box-align: center;
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 220px;
-	background-position: center;
-	background-repeat: no repeat;
-	padding-left: 245px;
+h3:hover span{
+	display: none;
 }
 
-.box:hover{
+h3:hover:before{
+	content: "in a space of affirmation";
+	font-size: 50px;
+	font-weight: 150;
+	padding-inline: 200px;
+}
+
+.mobiledisplay{
+	display: none;
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 440px;
+	
+}
+
+h1:hover{
 	font-size: 0;
 }
 
-.box:hover:after{
+h1:hover:after{
+	content: "in a space of affirmation";
+	color: black;
+	font-size: 0;
 	content: attr(data-hover);
 	font-family: sans-serif;
 	font-size:50px;
@@ -42,6 +48,19 @@ p{
 	align-items: center;
 	display: flex;
 	padding-inline: 200px;
+}
+
+
+h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+p{
+	font-family: sans-serif;
+	font-weight: 100;
+	text-align: center;
 }
 
 .vertical-line{
@@ -95,17 +114,70 @@ input[type=text]{
 .heart{
 	width:100px;
 	height:100px;
-	display: flex;
-	align-items: center;
-	align-content: center;
-	box-align: center;
+	margin: auto;
 	text-align: center;
 	font-size: 20px;
-	padding-left: 710px;
 }
 
-.heart:hover{
-	font-size: 30px;
-	text algih: center;
+/* Media query for mobile screens */
+@media (max-width: 767px){
+
+h3{
+	font-family: sans-serif;
+	font-size: 175px;
+	text-align: center;
+	margin-top: 85px;
+	margin-bottom: 80px;
+	pointer-events: none;
+}
+
+.mobiledisplay{
+	display: block;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: -85px;
+	margin-bottom: 35px;
+}
+
+.vertical-line{
+	border-left: 4px solid;
+	display: block;
+	margin: auto;
+	height: 600px;
+	width: 1px;
+	justify-content: center;
+}
+
+h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.caption{
+	text-align: center;
+	font-size: 20px;
+	line-height: 50%;
+	font-weight: 100;
+	margin-bottom: 5px;
+}
+
+.you-are{
+	text-align: center;
+	display: block;
+	margin: auto;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 58px;
+	line-height: 150%;
+}
+
+input{
+	width: 70%;
+}
+
 }
 
