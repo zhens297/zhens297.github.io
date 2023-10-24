@@ -173,6 +173,103 @@ p{
 /* Media query for tablet screens */
 @media (max-width: 991px){
 
+	h1{
+	font-size: 150px;
+	color: floralwhite;
+	padding-left: 20px;
+	margin-bottom: -1px;
+	pointer-events: none;
+}
+
+p{
+	color: floralwhite;
+	font-size: 35px;
+	font-weight:400;
+}
+
+.look{
+	color: floralwhite;
+	margin-left: -20px;
+	font-size:35px;
+	font-weight:400;
+}
+
+.flowers{
+	font-family: "parfumerie-script", sans-serif;
+	font-weight: 400;
+	padding-left: 5px;
+	font-style: normal;
+	font-size: 70px;
+}
+
+.peony{
+	width: 100px;
+	height: 100px;
+	float: right;
+	filter: blur(1px);
+	padding-bottom: 200px;
+}
+
+.lily{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-bottom:100px;
+}
+
+.hydrangea{
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-left: 50%;
+	padding-top:50%;
+}
+
+.dahlia{
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-left: 200px;
+}
+
+.tiger{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	filter: blur(1px);
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+.purple{
+	width: 130px;
+	height: 130px;
+	filter: blur(1px);
+	display: inline-block;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.pinkcherry{
+	width: 100px;
+	height: 100px;
+	filter: blur(1px);
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.forgetme{
+	width: 120px;
+	height: 120px;
+	filter: blur(1px);
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
+}
+
 }
 
 /* Media query for mobile screens */
@@ -213,6 +310,74 @@ p{
 	padding-left: 5px;
 	font-style: normal;
 	font-size: 40px;
+}
+
+.peony{
+	width: 50px;
+	height: 50px;
+	float: right;
+	filter: blur(1px);
+	padding-bottom: 200px;
+}
+
+.lily{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-bottom:100px;
+}
+
+.hydrangea{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-left: 50%;
+	padding-top:50%;
+}
+
+.dahlia{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	filter: blur(1px);
+	padding-left: 200px;
+}
+
+.tiger{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	filter: blur(1px);
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+.purple{
+	width: 50px;
+	height: 50px;
+	filter: blur(1px);
+	display: inline-block;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.pinkcherry{
+	width: 50px;
+	height: 50px;
+	filter: blur(1px);
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.forgetme{
+	width: 50px;
+	height: 50px;
+	filter: blur(1px);
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
 }
 
 }
