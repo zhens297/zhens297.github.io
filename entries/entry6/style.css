@@ -10,7 +10,7 @@ h1{
 
 body {
   text-align: center;
-  background: radial-gradient(pink, white);
+  background: radial-gradient(#ffda85, white);
 }
 
 .container1 {
@@ -29,7 +29,7 @@ body {
   height: 700px;
   border-radius: 600px;
   text-align: center;
-  background: radial-gradient(pink, white);
+  background: white;
   justify-items: center;
 }
 
@@ -112,38 +112,10 @@ body {
 
 /* Media query for very wide screens */
 /* Everything between 767 and 1200 will be covered with the default styles of the website */
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
   body {
   }
 
-.container1 {
-  display: grid;
-  grid-template-columns: repeat(2, 600px);  
-  column-gap: 0px;
-  row-gap: 20px;
-  grid-column:2;
-  text-align: justify;
-  padding-left: 90px;
-  margin-bottom: 50px;
-}
-
-.item {
-  width: 700px;
-  height: 700px;
-  border-radius: 600px;
-  text-align: center;
-  background: radial-gradient(pink, white);
-  justify-items: center;
-}
-
-.item2:hover{
-  width: 700px;
-  height: 700px;
-  border-radius: 600px;
-  text-align: center;
-  content: url("hug.jpg");
-  cursor: pointer;
-}
 
 
 
