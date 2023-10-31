@@ -1,0 +1,107 @@
+body{
+	background-color: #fff5f8;
+	background-image: linear-gradient(white, #ffebf1 70%);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+h1{
+	text-align: center;
+	font-family: "ivypresto-display", serif;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 150px;
+	letter-spacing: -.2rem;
+	color: pink;
+	padding-top: 100px;
+}
+
+
+.container {
+  position: relative;
+  width: 18%;
+  display: inline-block;
+  align-content: center;
+}
+
+.container1 {
+  position: relative;
+  width: 18%;
+  display: inline-block;
+  padding-left: 2%;
+}
+
+.container2 {
+  position: relative;
+  width: 18%;
+  display: inline-block;
+  padding-left: 1%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container1:hover .image {
+  opacity: 0.5;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.container2:hover .image {
+  opacity: 0.5;
+}
+
+.container2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  color: black;
+  font-size: 16px;
+}
+
+img{
+	dislay: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
