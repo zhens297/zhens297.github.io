@@ -1,0 +1,176 @@
+body{
+	background-color: #ffedcd;
+	overflow-x: hidden;
+}
+
+.theorange{
+	width: 80%;
+	display: flex;
+	margin: auto;
+	margin-bottom: -20%;
+	margin-top: -5%;
+}
+
+.orangefinal{
+	width: 60%;
+	display: flex;
+	margin: auto;
+}
+
+#page1{
+	width: 80%;
+	margin: auto;
+}
+
+#page2{
+	width: 60%;
+	margin: auto;
+	animation: spin 30s linear infinite;
+	animation-play-state: paused;
+}
+
+#page2:hover{
+	animation-play-state: running;
+	cursor: pointer;
+}
+
+@keyframes spin{
+	 0% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+#page3{
+	width: 80%;
+	margin: auto;
+}
+
+#orange{
+	animation: grow 4s ease infinite;
+}
+
+@keyframes grow{
+	  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+}
+}
+
+#LINES{
+	animation: cross 7s linear infinite;
+}
+
+@keyframes cross{
+	0% {
+    opacity: 0%;
+  }
+
+  10% {
+  	opacity: 20%;
+  }
+
+  20% {
+  	opacity: 40%;
+  }
+
+  30% {
+  	opacity: 60%;
+  }
+
+  40% {
+  	opacity: 80%;
+  }
+
+  50% {
+  	opacity: 100%;
+  }
+
+  60% {
+  	opacity: 80%;
+  }
+
+  70% {
+  	opacity: 60%;
+  }
+
+  80% {
+  	opacity: 40%;
+  }
+ 
+  90% {
+    opacity: 20%;
+  }
+
+  100% {
+  	opacity: 0%;
+  }
+}
+
+
+
+#LINES2{
+	animation: cross2 7s linear infinite 4s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes cross2{
+		0% {
+    opacity: 0%;
+  }
+
+  10% {
+  	opacity: 20%;
+  }
+
+  20% {
+  	opacity: 40%;
+  }
+
+  30% {
+  	opacity: 60%;
+  }
+
+  40% {
+  	opacity: 80%;
+  }
+
+  50% {
+  	opacity: 100%;
+  }
+
+  60% {
+  	opacity: 80%;
+  }
+
+  70% {
+  	opacity: 60%;
+  }
+
+  80% {
+  	opacity: 40%;
+  }
+ 
+  90% {
+    opacity: 20%;
+  }
+
+  100% {
+  	opacity: 0%;
+  }
+}
+}
+
+
+
+
+
+
