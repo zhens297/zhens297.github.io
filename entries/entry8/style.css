@@ -1,0 +1,94 @@
+body{
+	background-image: url("grass.png");
+	background-color: #d5eda6;
+}
+
+#menu {
+    text-align: center;
+    cursor: url(tab.png);
+}
+
+#menu:hover{
+	cursor: url(tab.png);
+}
+
+#welcome {
+    display: inline-block;
+    
+}
+
+#cow1{
+	width: 130px;
+	cursor: pointer;
+	margin-top: 0%;
+}
+
+#cow2{
+	width: 130px;
+	cursor: pointer;
+	margin-left: 50%;
+
+}
+
+#cow3{
+	width: 130px;
+	cursor: pointer;
+	float: right;
+}
+
+#dragcow{
+	width: 130px;
+	cursor: url(ufo.png), auto;
+	margin-top: 0%;
+	margin-left: 190%;
+
+}
+
+#dragcow:hover{
+	cursor: url(ufo.png), auto;
+
+}
+
+#cow4{
+	width: 130px;
+	cursor: pointer;
+	margin: 7%;
+}
+
+#cow5{
+	width: 130px;
+	cursor: pointer;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.announcement {
+	display: none;
+	margin: auto;
+    background: white;
+    height: 73px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button{
+	margin: auto;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+#mydiv {
+  position: absolute;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
