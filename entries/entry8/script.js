@@ -8,9 +8,20 @@ $(document).ready(function () {
     });
 });
 
-function playAudio(url) {
-  new Audio(url).play();
-}
+ let mainAudio = new Audio('ghibli.mp3');
+        let audioArray = [];
+
+        function playMainAudio() {
+            mainAudio.play();
+        }
+
+        function playSecondaryAudio(url) {
+            const newAudio = new Audio(url);
+            audioArray.push(newAudio);
+            newAudio.play();
+        }
+
+
 
 //Make the DIV element draggagle:
 dragElement(document.getElementById("mydiv"));
