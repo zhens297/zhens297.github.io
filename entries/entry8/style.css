@@ -5,11 +5,11 @@ body{
 
 #menu {
     text-align: center;
-    cursor: url(tab.png);
+    cursor: url(tab.png), auto
 }
 
 #menu:hover{
-	cursor: url(tab.png);
+    cursor: url(tab.png), auto
 }
 
 #welcome {
@@ -78,7 +78,7 @@ button{
 	margin: auto;
 	border: none;
 	background: none;
-	cursor: pointer;
+	cursor: inherit;
 }
 
 #mydiv {
