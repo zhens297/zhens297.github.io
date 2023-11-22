@@ -1,0 +1,44 @@
+body{
+	overflow: hidden;
+}
+
+svg{
+	width: 540px;
+	display: flex;
+	margin: auto;
+}
+
+#tulip:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip2:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip3:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip4:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip5:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip6:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
+
+#tulip7:hover{
+	transform: translate(0, -50px);
+	cursor: pointer;
+}
