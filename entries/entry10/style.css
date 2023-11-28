@@ -1,0 +1,197 @@
+*{
+	scroll-behavior: smooth;
+	background-color: #fcf7e8;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-snap-points-y: repeat(100vh);
+}
+
+p{
+	line-height: 1.4;
+    color: #3d3c3a;
+
+}
+
+h1{
+font-family: "ivypresto-display", serif;
+font-weight: 100;
+font-style: normal;
+}
+
+h6{
+    font-family: serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+#space{
+	width: 40%;
+	margin: auto;
+	padding-top: 21%;
+	display: grid;
+	place-items: center;
+}
+
+#flower{
+    float: right;
+    margin-right: 5%;
+    margin-top: 80px;
+}
+
+#miracle{
+	float: right;
+	margin-right: 5%;
+    margin-top: 80px;
+}
+
+#honey{
+    float: right;
+    margin-right: 5%;
+    margin-top: 70px;
+}
+
+#sigh{
+    float: right;
+    margin-right: 5%;
+    margin-top: 70px;
+
+}
+
+.avenue{
+    display: inline-grid;
+}
+
+
+#child2{
+    float: right;
+    margin-right: 5%;
+    margin-top: 137.5px;
+}
+
+#child1{
+    float: right;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+#colde{
+    width: 350px;
+    margin-left: 10%;
+    margin-top: 10vh;
+    cursor: pointer;
+}
+
+#corner{
+   width: 500px;
+   margin-left: 10%;
+   margin-top: 18vh;
+   cursor: pointer;
+}
+
+#lamp{
+   width: 500px;
+   margin-left: 10%;
+   margin-top: 23vh;
+   cursor: pointer;
+}
+
+#ichiko{
+   width: 500px;
+   margin-left: 10%;
+   margin-top: 20vh;
+   cursor: pointer;
+}
+
+#rocco{
+   width: 500px;
+   margin-left: 10%;
+   margin-top: 20vh;
+   cursor: pointer;
+}
+
+ /* Media query for mobile screens */
+
+@media (max-width: 767px) {
+
+*{
+    scroll-behavior: smooth;
+    background-color: #fcf7e8;
+    scroll-snap-type: none;
+}
+
+ body {
+    text-align: center;
+  }
+
+
+
+#flower{
+    margin-right: 17vh;
+}
+
+#miracle{
+    margin-right: 13vh;
+}
+
+#honey{
+    margin-right: 13vh;
+}
+
+#sigh{
+    margin-right: 10vh;
+}
+
+.avenue{
+    display: inline-grid;
+}
+
+
+#child2{
+    margin-right: 14vh;
+    order: 2;
+}
+
+#child1{
+    margin-right: 15vh;
+    order: 1;
+}
+
+#colde{
+    width: 300px;
+    margin-left: 1%;
+}
+
+#ichiko{
+   width: 300px;
+   margin-left: 1%;
+}
+
+#corner{
+   width: 300px;
+   margin-left: 1%;
+   cursor: pointer;
+}
+
+#lamp{
+    width: 300px;
+    margin-left: 1%;
+}
+
+#rocco{
+   width: 300px;
+   margin-left: 1%;
+}
+
+}
+
+
+
+
+
+
