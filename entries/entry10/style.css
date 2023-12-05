@@ -2,14 +2,17 @@
 	background-color: #fcf7e8;
 }
 
-header{
-    z-index: 100;
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 2vh;
-    top: -0.9vh;
-    position: relative;
+footer{
+    text-align: center;
+}
+
+a{
+  color:black;
+  text-decoration-line:none;
+}
+
+a:hover{
+  color:#fc9992;
 }
 
 p{
