@@ -1,9 +1,15 @@
 *{
-	scroll-behavior: smooth;
 	background-color: #fcf7e8;
-    scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory;
-    scroll-snap-points-y: repeat(100vh);
+}
+
+header{
+    z-index: 100;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2vh;
+    top: -0.9vh;
+    position: relative;
 }
 
 p{

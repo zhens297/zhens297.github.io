@@ -1,3 +1,9 @@
+body {
+  text-align: center;
+  background: radial-gradient(#ffda85, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 h1{
   text-align: center;
@@ -8,9 +14,17 @@ h1{
   font-size: 50px;
 }
 
-body {
-  text-align: center;
-  background: radial-gradient(#ffda85, white);
+footer{
+    margin: auto;
+}
+
+a{
+  color:#fc9992;
+  text-decoration-line:none;
+}
+
+a:hover{
+  color:#fc9992;
 }
 
 .container1 {

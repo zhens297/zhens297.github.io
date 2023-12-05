@@ -20,6 +20,19 @@ p{
 	font-weight:400;
 }
 
+a{
+	color:floralwhite;
+	text-decoration-line:none;
+}
+
+a:hover{
+	color:#fc9992;
+}
+
+footer{
+	text-align: center;
+}
+
 .oh1{
 	font-style: italic;
 }

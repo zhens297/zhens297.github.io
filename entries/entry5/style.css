@@ -10,6 +10,22 @@ body{
 
 /* text */
 
+footer{
+	text-align: center;
+	font-size: 15px;
+	font-family: serif;
+	font-weight: 100;
+}
+
+a{
+	color:whitesmoke;
+	text-decoration-line:none;
+}
+
+a:hover{
+	color:#fc9992;
+}
+
 h1{
 	font-size: 150px;
 }
@@ -928,6 +944,7 @@ h1{
 	width: 350px;
 	rotate: 140deg;
 }
+
 
 
 

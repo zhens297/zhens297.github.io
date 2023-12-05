@@ -3,6 +3,19 @@ body{
 	overflow-x: hidden;
 }
 
+footer{
+    text-align: center;
+}
+
+a{
+  color:orange;
+  text-decoration-line:none;
+}
+
+a:hover{
+  color:#fc9992;
+}
+
 .theorange{
 	width: 80%;
 	display: flex;
@@ -168,6 +181,7 @@ body{
   }
 }
 }
+
 
 
 
