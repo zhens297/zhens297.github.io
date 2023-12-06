@@ -4,6 +4,7 @@
 
 footer{
     text-align: center;
+    position: ;
 }
 
 a{
@@ -129,74 +130,64 @@ h6{
 @media (max-width: 767px) {
 
 *{
-    scroll-behavior: smooth;
     background-color: #fcf7e8;
-    scroll-snap-type: none;
 }
 
  body {
-    text-align: center;
   }
 
 
 
 #flower{
-    margin-right: 17vh;
+    text-align: center;
+    margin-right: 24vh;
 }
 
 #miracle{
-    margin-right: 13vh;
+    text-align: center;
+    margin-right: 19vh;
 }
 
 #honey{
-    margin-right: 13vh;
+    text-align: center;
+    margin-right: 19vh;
 }
 
 #sigh{
-    margin-right: 10vh;
-}
-
-.avenue{
-    display: inline-grid;
-}
-
-
-#child2{
-    margin-right: 14vh;
-    order: 2;
-}
-
-#child1{
-    margin-right: 15vh;
-    order: 1;
+    text-align: center;
+    margin: 15vh;
 }
 
 #colde{
     width: 300px;
-    margin-left: 1%;
+    margin-left: 23%;
 }
 
 #ichiko{
+    display: block;
+    margin: auto;
    width: 300px;
-   margin-left: 1%;
+   margin-left: 20%;
 }
 
 #corner{
+    display: block;
+    margin: auto;
    width: 300px;
-   margin-left: 1%;
-   cursor: pointer;
+   margin-left: 20%;
+   padding-top: 70px;
 }
 
 #lamp{
+    display: block;
     width: 300px;
-    margin-left: 1%;
+    margin-left: 20%;
+    padding-top: 70px;
 }
 
-#rocco{
-   width: 300px;
-   margin-left: 1%;
-}
-
+footer{
+    bottom: 0;
+    top: auto;
 }
 
 
