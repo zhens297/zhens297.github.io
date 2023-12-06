@@ -131,6 +131,15 @@ a:hover{
     background: white;
   }
 
+  .item1:hover{
+  width: 230px;
+  height: 230px;
+  border-radius: 190px;
+  text-align: center;
+  content: url("hug2.jpg");
+  cursor: pointer;
+}
+
   .item2:hover{
   width: 230px;
   height: 230px;
