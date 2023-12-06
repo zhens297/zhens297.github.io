@@ -72,6 +72,15 @@ a:hover{
     height: 470px;
   }
 
+  .item:hover{
+  width: 470px;
+  height: 470px;
+  border-radius: 400px;
+  text-align: center;
+  content: url("hug.jpg");
+  cursor: pointer;
+}
+
   .item2:hover{
   width: 470px;
   height: 470px;
