@@ -129,28 +129,23 @@ h6{
 
 @media (max-width: 767px) {
 
-*{
-    background-color: #fcf7e8;
+#space{
+    width: 60%;
 }
-
- body {
-  }
-
-
 
 #flower{
     text-align: center;
-    margin-right: 24vh;
+    margin-right: 19vh;
 }
 
 #miracle{
     text-align: center;
-    margin-right: 19vh;
+    margin-right: 15vh;
 }
 
 #honey{
     text-align: center;
-    margin-right: 19vh;
+    margin-right: 13vh;
 }
 
 #sigh{
@@ -159,8 +154,8 @@ h6{
 }
 
 #colde{
-    width: 300px;
-    margin-left: 23%;
+    width: 250px;
+    margin-left: 26%;
 }
 
 #ichiko{
@@ -186,8 +181,6 @@ h6{
 }
 
 footer{
-    bottom: 0;
-    top: auto;
 }
 
 
