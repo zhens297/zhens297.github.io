@@ -92,6 +92,20 @@ img{
 	dislay: inline-block;
 }
 
+@media (max-width: 600px) {
+
+  .grid-container {
+      grid-template-columns: 1fr;
+    }
+
+    .image {
+  opacity: 1;
+  width: 60%;
+  margin: auto;
+}
+}
+
+
 
 
 
