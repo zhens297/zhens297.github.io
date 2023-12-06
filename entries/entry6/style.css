@@ -47,6 +47,15 @@ a:hover{
   justify-items: center;
 }
 
+.item1:hover{
+  width: 700px;
+  height: 700px;
+  border-radius: 600px;
+  text-align: center;
+  content: url("hug2.jpg");
+  cursor: pointer;
+}
+
 .item2:hover{
   width: 700px;
   height: 700px;
